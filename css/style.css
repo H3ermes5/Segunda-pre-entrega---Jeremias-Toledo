@@ -1,0 +1,132 @@
+/*cuerpo de la página*/
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+/* Eliminación de margen*/
+* {
+    margin: 0;
+}
+
+/* Estilo para los enlaces */
+a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+/*encabezados de (h1) */
+h1 {
+    color: white;
+    font-family: "acumin-pro", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/*encabezados de (h2) */
+h2 {
+    justify-content: center;
+    display: flex;
+}
+
+/*encabezado de la página */
+header {
+    display: flex;
+    height: 40px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+}
+
+/*imágenes pequeñas */
+.imgSmall {
+    max-width: 65%;
+    border-radius: 2px;
+}
+.imgSmall:hover{
+    background-color: black;
+    box-shadow: 2px 2px 5px #464646;
+}
+/*enlaces en la barra de navegación */
+.enlace {
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/*enlaces de navegación*/
+nav a {
+    font-weight: 600;
+}
+
+/* Estilo para enlaces de navegación al pasar el cursor por encima */
+nav a:hover {
+    color: grey;
+}
+
+nav a:active{
+    color: #464646  ;
+}
+
+/*clase "short" */
+.short {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*clase "remeras1" */
+.remeras1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*clase "remeras2" */
+.remeras2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/*segunda sección */
+.final {
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 150px;
+}
+
+/*clase "final1" */
+.final1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/*clase "final2" */
+.final2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+/*clase "email" */
+.email{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
