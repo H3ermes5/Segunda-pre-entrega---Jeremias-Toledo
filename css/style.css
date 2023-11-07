@@ -1,5 +1,7 @@
 /*cuerpo de la página*/
 body {
+    align-items: center;
+    min-height: 100vh;
     background-color: rgb(221, 221, 221);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -35,14 +37,24 @@ h2 {
     margin: 25px;
 }
 
+.texto{
+    border-bottom: #222;
+    margin: 20px;
+}
+
 h3{
     display: flex;
+    
     
 }
 
 .texto{
     margin: 40px;
     
+}
+
+.texto2{
+    margin: 25px;
 }
 
 /*encabezado de la página */
@@ -115,8 +127,11 @@ nav a:active{
     margin: 30px ;
 }
 
-.barra{
-    display: flex;
+.barra1{
+    nav-down: 50px;
+    align-items: center;
+    display: inline;
+    justify-content: center;
     
 }
 
@@ -152,12 +167,15 @@ nav a:active{
     padding: 10px;
 }
 
+/*FOOTER*/
+
 .conteiner {
     max-width: 1200px;
     margin: 0 auto;
 }   
 .footer {
     align-items: center;
+    justify-content: space-between;
     background-color: black;
     padding: 80px 0;
 }
@@ -165,12 +183,16 @@ nav a:active{
 .footer-row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
 
 .footer-links {
     width: 25%;
     padding: 0 15px;
 }
+
+
 
 .footer-links h4 {
     color: white;
@@ -195,6 +217,56 @@ nav a:active{
     padding-left: 5px;
 }
 
-.fa-sharp .fa-light .fa-house{
+/*pagina de contactos*/
+
+
+/*form{ 
+    padding: 50px 55px;;
+    border-radius: 2px;
+    text-align: center;
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+}*/
+
+.input-grupo{
+    margin: 45px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+label{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    padding: 15px 50px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #d6d5d5;
+    border: 2px solid #818181;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #3f3f3f;
+}
+
+.btn {
+    font-size: 16px;
     color: white;
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(36, 43, 43);
+    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #464646;
 }
