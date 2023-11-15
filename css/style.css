@@ -1,9 +1,10 @@
 body {
     align-items: center;
     min-height: 100vh;
-    background-color: #dddddd;
+    background-color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+
 }
 
 
@@ -26,6 +27,9 @@ a {
 
 /*h1*/
 h1 {
+    display: inline;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-family: "acumin-pro", sans-serif;
     font-weight: 600;
@@ -43,7 +47,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 50px;
+    margin: 40px;
 }
 
 .texto {
@@ -128,7 +132,7 @@ header {
     font-size: 2.5rem;
 }
 
-
+/* carrusel de imagenes */
 .carousel-item{
     width: 100%;
     align-items: center;
@@ -143,12 +147,11 @@ header {
     grid-template-columns: repeat(4, 5fr);
     align-items: center;
     justify-content: center;
-    grid-gap: 5px;
+    grid-gap: 8px;
     margin: 10px;
 }
 
 
-/* tabla de talles de ayuda */
 
 
 .imgSmall:hover {
@@ -162,6 +165,8 @@ header {
     transform: scale(1.01);
 }
 
+/* tabla de talles de ayuda */
+
 .tabla{
     display: flex;
     align-items: center;
@@ -172,6 +177,9 @@ header {
     width: 35%;
     height: 35%;
 }
+
+
+/* titulo de imagenes INICIO/SHOP */
 
 .title-img3{
     font-family: "acumin-pro", sans-serif;
@@ -191,7 +199,26 @@ header {
     justify-content: center;
     text-align: center;
     font-weight: 600;
+    padding-right: 10px;
     font-size: 16px    
+}
+
+.precios-bajos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+.title-img1 {
+    font-family: "acumin-pro", sans-serif;
+    color: rgb(85, 85, 85);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px    
+    
 }
 
 /* Imágenes */
@@ -309,7 +336,7 @@ i{
     font-size: 30px;
     font-weight: 550;
     margin: 30px;
-    background-color:#dddddd
+    background-color:#ffffff
 }
 
 .barra{
