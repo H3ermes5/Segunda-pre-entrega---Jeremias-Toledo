@@ -43,11 +43,11 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 40px;
+    margin: 50px;
 }
 
 .texto {
-    margin: 20px;
+    margin: 10px;
 }
 
 h3 {
@@ -62,7 +62,7 @@ p{
 
 .texto2 {
     font-family: "acumin-pro", sans-serif;
-    margin: 25px;
+    margin-top: 30px;
 }
 
 /*HEADER*/
@@ -92,6 +92,7 @@ header {
 
 /* Enlaces del nav */
 .nav1 a {
+    font-size: 17px;
     padding: 10px;
     color: rgb(255, 255, 255);
     font-weight: 600;
@@ -142,30 +143,35 @@ header {
     grid-template-columns: repeat(4, 5fr);
     align-items: center;
     justify-content: center;
-    grid-gap: 50px;
-    margin: 50px;
+    grid-gap: 5px;
+    margin: 10px;
 }
 
 
 /* tabla de talles de ayuda */
 
-.tabla{
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .imgSmall:hover {
-    transform: scale(1.04);
+    box-shadow: 0px 0px 5px #222;
+    transform: scale(1.02);
     cursor: pointer;
     transition: all 0.1s;
 }
 
 .imgSmall:active{
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
+.tabla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabla1 {
+    width: 35%;
+    height: 35%;
+}
 
 .title-img3{
     font-family: "acumin-pro", sans-serif;
@@ -378,7 +384,7 @@ i{
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 970px) {
     .remeras1 {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -406,7 +412,7 @@ i{
 
 /*MENU HAMBURGUESA*/
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
     .menu-icon {
         display: block;
         justify-content: center;
