@@ -115,11 +115,6 @@ header {
     color: #464646;
 }
 
-.nav1:hover {
-    color: #222;
-    padding-left: 5px;
-}
-
 
 
 
@@ -162,7 +157,7 @@ header {
     right: 0;
     width: 600px;
     line-height: 250px;
-    padding-left: 60px;
+
     cursor: pointer; 
     position: absolute;
     display: flex;
@@ -202,6 +197,8 @@ header {
 
 /* carrusel de imagenes */
 .carousel-item{
+    position: absolute;
+    z-index: 0;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -377,34 +374,9 @@ input::placeholder, textarea::placeholder {
     padding: 40px;
 }
 
-.pre-footer i{ 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.pre-footer a{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-family: "acumin-pro", sans-serif;
+.pre-footer .imginsta{
     color: white;
-    font-weight: 600;
-    font-size: 40px;
 }
-
-
-
-
-i{
-    color: white;
-    font-size: 500%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
 
 /* recibí todas las ofertas */
 
@@ -423,13 +395,7 @@ i{
     background-color:#ffffff
 }
 
-.barra{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.enviar{
+.barra, .enviar{
     display: flex;
     align-items: center;
     justify-content: center;
