@@ -138,8 +138,8 @@ header .nav1 a:active {
 
 .tabla {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
 }
 .tabla .tabla1 {
   width: 70vh;
