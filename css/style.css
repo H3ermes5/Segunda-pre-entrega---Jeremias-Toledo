@@ -125,7 +125,7 @@ header .nav1 a:active {
   font-size: 15px;
   color: rgb(255, 255, 255);
   outline: none;
-  border-radius: 15px;
+  border-radius: 10px;
   margin-bottom: 20px;
   background-color: rgba(214, 213, 213, 0.1764705882);
   border: 2px solid rgb(88, 88, 88);
@@ -185,6 +185,7 @@ header .nav1 a:active {
 .remeras1 .imgSmall:hover {
   box-shadow: 0px 0px 5px #222;
   transform: scale(1.02);
+  border-radius: 0;
   cursor: pointer;
   transition: all 0.1s;
 }
