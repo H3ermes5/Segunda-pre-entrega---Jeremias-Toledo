@@ -1,5 +1,5 @@
-@import "./variables";
-@import "./font";
+@import "./partials/variables";
+@import "./partials/font";
 
 // ELIMINACION DE MARGEN Y RELLENO
 * {
@@ -122,7 +122,7 @@ i{
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color:$color-secondary;
+        background-color: $color-secondary;
     input{
             position: absolute;
             width: 350px;
@@ -442,4 +442,4 @@ i{
     }
 }
 
-@import "./queries";
+@import "./partials/queries";
