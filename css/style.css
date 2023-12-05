@@ -31,6 +31,10 @@ body h1 {
   font-style: italic;
   margin: 15px;
 }
+body h1:hover {
+  transition: all 0.3s;
+  color: #ff8400;
+}
 body h2 {
   font-size: 30px;
   color: #000000;
@@ -40,14 +44,9 @@ body h2 {
   justify-content: center;
   margin: 35px;
 }
-body h3 {
-  font-size: 16px;
-  color: #ffffff;
-  font-weight: 200;
+body .descuento, body a {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin: 0px;
 }
 
 header {
@@ -82,11 +81,12 @@ header .nav1 a {
   transition: all 0.05s;
 }
 header .nav1 a:hover {
-  color: #464646;
+  transition: all 0.1s;
+  color: #ff8400;
   transform: scale(1.03);
 }
 header .nav1 a:active {
-  color: #222;
+  color: #464646;
   transform: scale(1.01);
 }
 
@@ -352,7 +352,7 @@ header .nav1 a:active {
   padding-bottom: 15px;
 }
 .conteiner1 i {
-  color: #ffffff;
+  color: #ff8400;
   display: inline;
   align-items: center;
   justify-content: center;

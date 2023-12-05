@@ -34,6 +34,10 @@ body {
     font-weight: 900;
     font-style: italic;
     margin: 15px;
+    &:hover{
+        transition: all 0.3s;
+        color: #ff8400;
+    }
     }
     h2{
     font-size: 30px;
@@ -44,17 +48,12 @@ body {
     justify-content: center;
     margin: 35px;
 }
-h3{
-    font-size: 16px;
-    color: $color-secondary;
-    font-weight: 200;
+.descuento, a{
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 0px;
-}
-}
 
+}
+}
 // HEADER
 
 header {
@@ -87,11 +86,12 @@ header {
         font-weight: 600;
         transition: all 0.05s;
         &:hover{
-            color: #464646;
+            transition: all 0.1s;
+            color: #ff8400;
             transform: scale(1.03);
         }
         &:active{
-            color: #222;
+            color: #464646;
             transform: scale(1.01);
         }
     }
@@ -145,6 +145,8 @@ i{
             border: 2px solid rgb(88, 88, 88);
         }
     }
+
+// IMAGEN DE DESCUENTO SECCION SHOP
 
 .imag{
     background-color: #141414;
@@ -375,7 +377,7 @@ i{
         padding-bottom: 15px;
     }
     i{
-        color: $color-secondary;
+        color: #ff8400;
         display: inline;
         align-items: center;
         justify-content: center;
