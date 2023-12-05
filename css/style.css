@@ -40,6 +40,15 @@ body h2 {
   justify-content: center;
   margin: 35px;
 }
+body h3 {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
 
 header {
   position: absolute;
@@ -123,6 +132,15 @@ header .nav1 a:active {
   margin-bottom: 20px;
   background-color: rgba(214, 213, 213, 0.1764705882);
   border: 2px solid rgb(88, 88, 88);
+}
+
+.imag {
+  background-color: #141414;
+}
+
+.imgsmall2 {
+  width: 100%;
+  height: 100%;
 }
 
 .texto {
